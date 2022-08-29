@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import App from "../App";
-import { faUserAstronaut } from "@fortawesome/free-solid-svg-icons";
 import weatherPic1 from "./weatherPic1.jpg";
 import { FaStreetView } from "react-icons/fa";
 import "./css/style.css";
