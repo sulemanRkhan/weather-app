@@ -22,9 +22,10 @@
     border:none;
     border-radius: 10px;
     padding: 10px;
-    width: 300px;
-    height: 400px;
+    width: 338px;
+    height: 500px;
     box-shadow:  5px 8px #8888889a;
+    
 }
 .inputField{
     height: 35px;
@@ -48,3 +49,44 @@
 .temp{
     padding-bottom: 25px;
 }
+@media screen and (max-width: 700px) {
+    .container {
+        width:290px;
+      height: 420px;
+    }
+    
+    .inputField{
+        height: 25px;
+        width: 230px;
+    }
+    .location{
+        font-size: large;
+    }
+    .temp{
+        font-size: x-large;
+    }
+    .tempmin-max{
+        font-size: medium;
+    }
+  }
+
+  
+@media screen and (max-width: 400px) {
+    .container {
+        width: 200px;
+      height: 350px;
+    }
+    .inputField{
+        height: 25px;
+        width: 180px;
+    }
+    .location{
+        font-size: medium;
+    }
+    .temp{
+        font-size: large;
+    }
+    .tempmin-max{
+        font-size: small;
+    }
+  }
