@@ -24,8 +24,6 @@ const Tempapp = () => {
           className="container"
           style={{
             backgroundImage: `url(${weatherPic1})`,
-            height: "500px",
-            width: "338px",
           }}
         >
           <div className="inputData">
@@ -51,9 +49,6 @@ const Tempapp = () => {
                   Min : {city.temp_min} °C | Max : {city.temp_max} °C
                 </h4>
               </div>
-              {/* <div className="wave-one"></div>
-              <div className="wave-two"></div>
-              <div className="wave-three"></div> */}
             </div>
           )}
         </div>
